@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Compuestos</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background-color: #000; /* Fondo negro */
+            color: #FFD700; /* Letras doradas */
+            min-height: 100vh;
+            padding: 20px;
+        }
+        input { 
+            padding: 12px; 
+            width: 300px; 
+            border: 2px solid #FFD700; /* Borde dorado */
+            border-radius: 4px;
+            font-size: 16px;
+            color: #000; /* Color del texto dentro del input */
+            background-color: #FFF; /* Fondo blanco para el input */
+        }
+        button { 
+            padding: 12px 24px; 
+            background-color: #FFD700; /* Botón dorado */
+            color: black; /* Texto negro en el botón */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #DAA520; /* Botón dorado más oscuro al pasar el mouse */
+        }
+        #resultados { 
+            margin-top: 20px; 
+            background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semitransparente */
+            padding: 20px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        table { 
+            margin: 0 auto; 
+            border-collapse: collapse; 
+            width: 80%; 
+            background-color: #222; /* Fondo oscuro para la tabla */
+            color: #FFD700; /* Letras doradas en la tabla */
+        }
+        th, td { 
+            border: 1px solid #444; /* Borde gris oscuro */
+            padding: 12px; 
+        }
+        th { 
+            background-color: #333; /* Fondo oscuro para los encabezados */
+            color: #FFD700; /* Letras doradas en los encabezados */
+        }
+        .footer {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            color: #FFD700; /* Letras doradas */
+            text-align: right;
+            font-size: 14px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+    </style>
+
+</head>
+<body>
+    <h1>🔎 Buscador de Compuestos</h1>
+    <input type="text" id="busqueda" placeholder="Escribe el nombre del compuesto" onkeypress="if(event.key === 'Enter') buscar()">
+    <button onclick="buscar()">Buscar</button>
+    
+    <div id="resultados"></div>
+
+    <script>
+        function buscar() {
+            let query = document.getElementById("busqueda").value;
+            fetch(`/buscar?q=${query}`)
+                .then(response => response.json())
+                .then(data => {
+                    let resultadosDiv = document.getElementById("resultados");
+                    resultadosDiv.innerHTML = "";  // Limpiar resultados previos
+                    if (data.length > 0) {
+                        let table = `<table>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Fórmula</th>
+                                <th>Masa Molecular</th>
+                                <th>Punto de Fusión</th>
+                                <th>Punto de Ebullición</th>
+                                <th>Solubilidad</th>
+                                <th>Presión de Vapor</th>
+                                <th>Densidad</th>
+                            </tr>`;
+                        data.forEach(compuesto => {
+                            table += `
+                                <tr>
+                                    <td>${compuesto.nombre}</td>
+                                    <td>${compuesto.formula}</td>
+                                    <td>${compuesto.masa_molecular}</td>
+                                    <td>${compuesto.punto_fusion}</td>
+                                    <td>${compuesto.punto_ebullicion}</td>
+                                    <td>${compuesto.solubilidad}</td>
+                                    <td>${compuesto.presion_vapor}</td>
+                                    <td>${compuesto.densidad}</td>
+                                </tr>`;
+                        });
+                        table += `</table>`;
+                        resultadosDiv.innerHTML = table;
+                    } else {
+                        resultadosDiv.innerHTML = "<p>⚠ No se encontró ningún compuesto.</p>";
+                    }
+                })
+                .catch(error => {
+                    console.error("Error al buscar:", error);
+                    let resultadosDiv = document.getElementById("resultados");
+                    resultadosDiv.innerHTML = "<p>⚠ Ocurrió un error al realizar la búsqueda.</p>";
+                });
+        }
+    </script>
+    <div class="footer">
+        1 B ITIN<br>
+        GRUPO 4
+    </div>
+</body>
+</html>

@@ -1,0 +1,470 @@
+{
+    "Agua": {
+        "formula": "H2O",
+        "masa_molecular": "18.0 g/mol",
+        "punto_fusion": "0°C",
+        "punto_ebullicion": "100°C",
+        "solubilidad": "Miscible",
+        "presion_vapor": "2.3 kPa",
+        "densidad": "1.0 g/mL"
+    },
+    "Dióxido de Carbono": {
+        "formula": "CO2",
+        "masa_molecular": "44.0 g/mol",
+        "punto_fusion": "-56.6°C",
+        "punto_ebullicion": "-79°C",
+        "solubilidad": "88 ml/100 ml",
+        "presion_vapor": "5720 kPa",
+        "densidad": "1.5 g/mL"
+    },
+    "Metano": {
+        "formula": "CH4",
+        "masa_molecular": "16.04 g/mol",
+        "punto_fusion": "-182°C",
+        "punto_ebullicion": "-161°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "4640 kPa",
+        "densidad": "0.656 g/L"
+    },
+    "Etanol": {
+        "formula": "C2H5OH",
+        "masa_molecular": "46.07 g/mol",
+        "punto_fusion": "-114°C",
+        "punto_ebullicion": "78.37°C",
+        "solubilidad": "Miscible",
+        "presion_vapor": "5.95 kPa",
+        "densidad": "0.789 g/mL"
+    },
+    "Ácido Sulfúrico": {
+        "formula": "H2SO4",
+        "masa_molecular": "98.08 g/mol",
+        "punto_fusion": "10°C",
+        "punto_ebullicion": "337°C",
+        "solubilidad": "Miscible",
+        "presion_vapor": "0.001 kPa",
+        "densidad": "1.84 g/mL"
+    },
+    "Ácido Clorhídrico": {
+        "formula": "HCl",
+        "masa_molecular": "36.46 g/mol",
+        "punto_fusion": "-114.2°C",
+        "punto_ebullicion": "-85°C",
+        "solubilidad": "Muy soluble",
+        "presion_vapor": "40.4 kPa",
+        "densidad": "1.18 g/mL"
+    },
+    "Cloruro de Sodio": {
+        "formula": "NaCl",
+        "masa_molecular": "58.44 g/mol",
+        "punto_fusion": "801°C",
+        "punto_ebullicion": "1413°C",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "2.16 g/mL"
+    },
+    "Óxido de Hierro (III)": {
+        "formula": "Fe2O3",
+        "masa_molecular": "159.69 g/mol",
+        "punto_fusion": "1565°C",
+        "punto_ebullicion": "N/A",
+        "solubilidad": "Insoluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "5.24 g/mL"
+    },
+    "Amoníaco": {
+        "formula": "NH3",
+        "masa_molecular": "17.03 g/mol",
+        "punto_fusion": "-77.7°C",
+        "punto_ebullicion": "-33.34°C",
+        "solubilidad": "Altamente soluble",
+        "presion_vapor": "8570 kPa",
+        "densidad": "0.73 g/L"
+    },
+    "Glucosa": {
+        "formula": "C6H12O6",
+        "masa_molecular": "180.16 g/mol",
+        "punto_fusion": "146°C",
+        "punto_ebullicion": "Decomposición",
+        "solubilidad": "Muy soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "1.54 g/mL"
+    },
+    "Ácido Nítrico": {
+        "formula": "HNO3",
+        "masa_molecular": "67.60 g/mol",
+        "punto_fusion": "-26°C",
+        "punto_ebullicion": "52°C",
+        "solubilidad": "Variable",
+        "presion_vapor": "19.5 kPa",
+        "densidad": "1.3 g/mL"
+    },
+    "Ácido Acético": {
+        "formula": "CH3COOH",
+        "masa_molecular": "60.05 g/mol",
+        "punto_fusion": "16.6°C",
+        "punto_ebullicion": "118.1°C",
+        "solubilidad": "Miscible",
+        "presion_vapor": "1.5 kPa",
+        "densidad": "1.049 g/mL"
+    },
+    "Ácido Fosfórico": {
+        "formula": "H3PO4",
+        "masa_molecular": "97.99 g/mol",
+        "punto_fusion": "42.35°C",
+        "punto_ebullicion": "158°C",
+        "solubilidad": "Miscible",
+        "presion_vapor": "0.03 kPa",
+        "densidad": "1.885 g/mL"
+    },
+    "Ácido Cítrico": {
+        "formula": "C6H8O7",
+        "masa_molecular": "192.12 g/mol",
+        "punto_fusion": "153°C",
+        "punto_ebullicion": "Decomposición",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "1.665 g/mL"
+    },
+    "Bicarbonato de Sodio": {
+        "formula": "NaHCO3",
+        "masa_molecular": "84.01 g/mol",
+        "punto_fusion": "50°C",
+        "punto_ebullicion": "Decomposición",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "2.20 g/mL"
+    },
+    "Hidróxido de Sodio": {
+        "formula": "NaOH",
+        "masa_molecular": "40.00 g/mol",
+        "punto_fusion": "318°C",
+        "punto_ebullicion": "1388°C",
+        "solubilidad": "Miscible",
+        "presion_vapor": "N/A",
+        "densidad": "2.13 g/mL"
+    },
+    "Hidróxido de Potasio": {
+        "formula": "KOH",
+        "masa_molecular": "56.11 g/mol",
+        "punto_fusion": "360°C",
+        "punto_ebullicion": "1320°C",
+        "solubilidad": "Miscible",
+        "presion_vapor": "N/A",
+        "densidad": "2.12 g/mL"
+    },
+    "Óxido de Calcio": {
+        "formula": "CaO",
+        "masa_molecular": "56.08 g/mol",
+        "punto_fusion": "2572°C",
+        "punto_ebullicion": "2850°C",
+        "solubilidad": "Reacciona con agua",
+        "presion_vapor": "N/A",
+        "densidad": "3.34 g/mL"
+    },
+    "Peróxido de Hidrógeno": {
+        "formula": "H2O2",
+        "masa_molecular": "34.01 g/mol",
+        "punto_fusion": "-0.43°C",
+        "punto_ebullicion": "150.2°C",
+        "solubilidad": "Miscible",
+        "presion_vapor": "0.13 kPa",
+        "densidad": "1.45 g/mL"
+    },
+    "Acetona": {
+        "formula": "C3H6O",
+        "masa_molecular": "58.08 g/mol",
+        "punto_fusion": "-94.7°C",
+        "punto_ebullicion": "56.05°C",
+        "solubilidad": "Miscible",
+        "presion_vapor": "24.6 kPa",
+        "densidad": "0.784 g/mL"
+    },
+    "Cloroformo": {
+        "formula": "CHCl3",
+        "masa_molecular": "119.38 g/mol",
+        "punto_fusion": "-63.5°C",
+        "punto_ebullicion": "61.2°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "21.2 kPa",
+        "densidad": "1.489 g/mL"
+    },
+    "Benceno": {
+        "formula": "C6H6",
+        "masa_molecular": "78.11 g/mol",
+        "punto_fusion": "5.5°C",
+        "punto_ebullicion": "80.1°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "12.7 kPa",
+        "densidad": "0.876 g/mL"
+    },
+    "Tolueno": {
+        "formula": "C7H8",
+        "masa_molecular": "92.14 g/mol",
+        "punto_fusion": "-95°C",
+        "punto_ebullicion": "110.6°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "3.8 kPa",
+        "densidad": "0.867 g/mL"
+    },
+    "Anilina": {
+        "formula": "C6H5NH2",
+        "masa_molecular": "93.13 g/mol",
+        "punto_fusion": "-6.2°C",
+        "punto_ebullicion": "184.1°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "0.067 kPa",
+        "densidad": "1.021 g/mL"
+    },
+    "Fenol": {
+        "formula": "C6H5OH",
+        "masa_molecular": "94.11 g/mol",
+        "punto_fusion": "40.5°C",
+        "punto_ebullicion": "181.7°C",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "0.4 kPa",
+        "densidad": "1.07 g/mL"
+    },
+    "Ácido Benzoico": {
+        "formula": "C7H6O2",
+        "masa_molecular": "122.12 g/mol",
+        "punto_fusion": "122.4°C",
+        "punto_ebullicion": "249.2°C",
+        "solubilidad": "Poco soluble en agua",
+        "presion_vapor": "0.1 kPa",
+        "densidad": "1.32 g/mL"
+    },
+    "Ácido Fórmico": {
+        "formula": "HCOOH",
+        "masa_molecular": "46.03 g/mol",
+        "punto_fusion": "8.4°C",
+        "punto_ebullicion": "100.8°C",
+        "solubilidad": "Miscible",
+        "presion_vapor": "4.0 kPa",
+        "densidad": "1.22 g/mL"
+    },
+    "Etano": {
+        "formula": "C2H6",
+        "masa_molecular": "30.07 g/mol",
+        "punto_fusion": "-182.8°C",
+        "punto_ebullicion": "-88.6°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "N/A",
+        "densidad": "1.356 g/L"
+    },
+    "Propano": {
+        "formula": "C3H8",
+        "masa_molecular": "44.10 g/mol",
+        "punto_fusion": "-187.7°C",
+        "punto_ebullicion": "-42.1°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "853.16 kPa",
+        "densidad": "2.0098 g/L"
+    },
+    "Butano": {
+        "formula": "C4H10",
+        "masa_molecular": "58.12 g/mol",
+        "punto_fusion": "-138.3°C",
+        "punto_ebullicion": "-0.5°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "220.7 kPa",
+        "densidad": "2.48 g/L"
+    },
+    "Pentano": {
+        "formula": "C5H12",
+        "masa_molecular": "72.15 g/mol",
+        "punto_fusion": "-129.8°C",
+        "punto_ebullicion": "36.1°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "57.9 kPa",
+        "densidad": "3.22 g/L"
+    },
+    "Hexano": {
+        "formula": "C6H14",
+        "masa_molecular": "86.18 g/mol",
+        "punto_fusion": "-95.3°C",
+        "punto_ebullicion": "68.7°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "17.6 kPa",
+        "densidad": "0.6548 g/mL"
+    },
+    "Heptano": {
+        "formula": "C7H16",
+        "masa_molecular": "100.21 g/mol",
+        "punto_fusion": "-90.6°C",
+        "punto_ebullicion": "98.4°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "5.3 kPa",
+        "densidad": "0.684 g/mL"
+    },
+    "Octano": {
+        "formula": "C8H18",
+        "masa_molecular": "114.23 g/mol",
+        "punto_fusion": "-56.8°C",
+        "punto_ebullicion": "125.6°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "2.1 kPa",
+        "densidad": "0.703 g/mL"
+    },
+    "Nonano": {
+        "formula": "C9H20",
+        "masa_molecular": "128.26 g/mol",
+        "punto_fusion": "-53.5°C",
+        "punto_ebullicion": "150.8°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "0.9 kPa",
+        "densidad": "0.718 g/mL"
+    },
+    "Decano": {
+        "formula": "C10H22",
+        "masa_molecular": "142.29 g/mol",
+        "punto_fusion": "-29.7°C",
+        "punto_ebullicion": "174.1°C",
+        "solubilidad": "Poco soluble",
+        "presion_vapor": "0.4 kPa",
+        "densidad": "0.730 g/mL"
+    },
+    "Sulfato de Cobre": {
+        "formula": "CuSO4",
+        "masa_molecular": "159.61 g/mol",
+        "punto_fusion": "110°C",
+        "punto_ebullicion": "Decomposición",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "3.6 g/mL"
+    },
+    "Carbonato de Calcio": {
+        "formula": "CaCO3",
+        "masa_molecular": "100.09 g/mol",
+        "punto_fusion": "825°C",
+        "punto_ebullicion": "Decomposición",
+        "solubilidad": "Insoluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "2.71 g/mL"
+    },
+    "Óxido de Aluminio": {
+        "formula": "Al2O3",
+        "masa_molecular": "101.96 g/mol",
+        "punto_fusion": "2072°C",
+        "punto_ebullicion": "2977°C",
+        "solubilidad": "Insoluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "3.95 g/mL"
+    },
+    "Fluoruro de Sodio": {
+        "formula": "NaF",
+        "masa_molecular": "41.99 g/mol",
+        "punto_fusion": "993°C",
+        "punto_ebullicion": "1704°C",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "2.558 g/mL"
+    },
+    "Sulfato de Magnesio": {
+        "formula": "MgSO4",
+        "masa_molecular": "120.37 g/mol",
+        "punto_fusion": "1124°C",
+        "punto_ebullicion": "Decomposición",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "2.66 g/mL"
+    },
+    "Óxido de Zinc": {
+        "formula": "ZnO",
+        "masa_molecular": "81.38 g/mol",
+        "punto_fusion": "1975°C",
+        "punto_ebullicion": "2360°C",
+        "solubilidad": "Insoluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "5.606 g/mL"
+    },
+    "Fosfato de Calcio": {
+        "formula": "Ca3(PO4)2",
+        "masa_molecular": "310.18 g/mol",
+        "punto_fusion": "1670°C",
+        "punto_ebullicion": "Decomposición",
+        "solubilidad": "Insoluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "3.14 g/mL"
+    },
+    "Cianuro de Potasio": {
+        "formula": "KCN",
+        "masa_molecular": "65.12 g/mol",
+        "punto_fusion": "634.5°C",
+        "punto_ebullicion": "1625°C",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "1.52 g/mL"
+    },
+    "Dicromato de Potasio": {
+        "formula": "K2Cr2O7",
+        "masa_molecular": "294.18 g/mol",
+        "punto_fusion": "398°C",
+        "punto_ebullicion": "500°C",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "2.676 g/mL"
+    },
+    "Yoduro de Potasio": {
+        "formula": "KI",
+        "masa_molecular": "166.00 g/mol",
+        "punto_fusion": "681°C",
+        "punto_ebullicion": "1330°C",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "3.13 g/mL"
+    },
+    "Nitrato de Plata": {
+        "formula": "AgNO3",
+        "masa_molecular": "169.87 g/mol",
+        "punto_fusion": "212°C",
+        "punto_ebullicion": "444°C",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "4.35 g/mL"
+    },
+    "Acetamida": {
+        "formula": "C2H5NO",
+        "masa_molecular": "59.07 g/mol",
+        "punto_fusion": "82°C",
+        "punto_ebullicion": "222°C",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "1.159 g/mL"
+    },
+    "Ácido Ascórbico": {
+        "formula": "C6H8O6",
+        "masa_molecular": "176.12 g/mol",
+        "punto_fusion": "190°C",
+        "punto_ebullicion": "Decomposición",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "1.65 g/mL"
+    },
+    "Sacarosa": {
+        "formula": "C12H22O11",
+        "masa_molecular": "342.30 g/mol",
+        "punto_fusion": "186°C",
+        "punto_ebullicion": "Decomposición",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "1.587 g/mL"
+    },
+    "Lactosa": {
+        "formula": "C12H22O11",
+        "masa_molecular": "342.30 g/mol",
+        "punto_fusion": "202°C",
+        "punto_ebullicion": "Decomposición",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "1.525 g/mL"
+    },
+    "Maltosa": {
+        "formula": "C12H22O11",
+        "masa_molecular": "342.30 g/mol",
+        "punto_fusion": "160°C",
+        "punto_ebullicion": "Decomposición",
+        "solubilidad": "Soluble en agua",
+        "presion_vapor": "N/A",
+        "densidad": "1.54 g/mL"
+    }
+}
